@@ -1,0 +1,58 @@
+#headerWrapper{
+	width: 100%;
+}
+.container-fluid{
+	clear: both;
+}
+.logo{
+	padding:10px;
+	margin-right:10px;
+	font-size: 35px;
+	font-family: fantasy;
+}
+.tagline{
+	margin-top: 50px;
+	margin-left: -123px;
+	font-size: 10px;
+	font-family: monospace;
+}
+.nav-wrapper {
+    margin-right: 10px;
+    margin-top: 15px;
+}
+#bookListWrapper{
+	width: 100%;
+	padding: 10px;
+}
+#bookListWrapper input{
+	width: 25%;
+}
+#bookListWrapper .book{
+	border: 1px solid grey;
+	padding: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+#bookListWrapper .book .book-details{
+	margin-left: 235px;
+}
+.container.ng-enter{
+	-webkit-transition:0.5s linear all;
+	-moz-transition:0.5s linear all;
+	-o-transition:0.5s linear all;
+	opacity:0;
+}
+.container.ng-enter-active{
+	opacity: 1;
+}
+.book .ng-leave{
+	-webkit-transition:0.5s linear all;
+	-moz-transition:0.5s linear all;
+	-o-transition:0.5s linear all;
+	left: 0px;
+	opacity:1;
+}
+.container .ng-leave-active{
+	opacity: 0;
+	left: 600px;
+}
